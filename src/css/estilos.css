@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+body{
+    background: rgb(240, 240, 240);
+    padding: .5em;
+
+}
+
+div{
+    width: 100%;
+    padding: .6em;
+    background: #fff;
+}
+
+h1,h2,h3 {
+    color: #131313;
+    margin-bottom: .5em;
+}
+h1 {font-size: 1.9em}
+h2 {font-size: 1.7em}
+h3 {font-size: 1.5em}
+
+p{
+    font-size: 1em;
+    color: #252525
+}
+
+a{
+    display: inline-block;
+    font-size: .8em;
+    color: #7c7c7c;
+    font-weight: bold;
+    text-decoration: none;
+}
